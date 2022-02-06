@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Practica 1</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script module src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css">
+
+</head>
+<h1>Encabezado 1</h1>
+<h2>Encabezado 2</h2>
+<h3>Encabezado 3</h3>
+    <ion-grid> <!--Inicia Grid-->
+        <ion-row><!--Inicia Fila-->
+            <ion-col size = "10" size-sm = "12" size-lg = "6"><!--Inicia Columna 1-->
+                Columna 1
+                <ion-input placeholder = "Escribe tu nombre"></ion-input>
+                <!--Esta es una directiva de HTML : Input-->
+            </ion-col>
+            <ion-col size = "2" size-lg = "6" offset-lg = "0">
+                Columna 2
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</html>
